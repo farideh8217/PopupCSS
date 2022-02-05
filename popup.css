@@ -10,13 +10,17 @@
     border: 2px solid #ccc;
     text-align: center;
     font-size: 17px;
-    margin: 0px 0px 0px -50px;
-    transform: all ease 0.3s
+    margin: 60px 0px 0px 0px;
+    transform: all ease 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    transition: 3s;
 }
 .desc{
     padding: 0px 0px 5px 0px;
 }
 .popup:hover .popup-content{
-    
-    background-color: yellow;
+    margin: 0px 0px 0px 0px;
+    visibility: visible;
+    opacity: 1;
 }
